@@ -106,7 +106,7 @@ job_id_to_name = (
 # ----------------------------------
 # HEADER
 # ----------------------------------
-st.title("🧠 RoleGraph AI – Intelligent Job Similarity Engine")
+st.title("🧠 RoleGraph AI – Intelligent Job Similarity Engine (80:20 Model)")
 
 st.markdown(
     """

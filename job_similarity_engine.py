@@ -153,8 +153,8 @@ for i in range(n):
         
 
 #Fusion Strategy (Configurable)
-TEXT_WEIGHT = 0.7
-COMP_WEIGHT = 0.3
+TEXT_WEIGHT = 0.8
+COMP_WEIGHT = 0.2
 
 final_similarity = (
     TEXT_WEIGHT * text_sim_matrix +
