@@ -218,7 +218,7 @@ results_df.rename(columns={
 }, inplace=True)
 
 
-results_df.to_excel("job_similarity_output_v1.xlsx", index=False)
+results_df.to_excel("job_similarity_output_v1_80-20.xlsx", index=False)
 
 print("✅ Job similarity file exported successfully")
 
@@ -239,4 +239,4 @@ similarity_matrix = pd.DataFrame(
 np.fill_diagonal(similarity_matrix.values, 100.0)
 
 # Export
-similarity_matrix.to_excel("job_similarity_matrix.xlsx")
+similarity_matrix.to_excel("job_similarity_matrix_80-20.xlsx")
